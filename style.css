@@ -1,0 +1,64 @@
+.hdn {
+    opacity: 0;
+    transition: all 3s;
+}
+
+.show {
+    opacity: 1;
+}
+
+.swing{
+    animation: swing 5.3s infinite;
+    
+}
+
+.swing2{
+    animation: swing2 5s infinite;
+}
+
+.list-nav:hover {
+    text-shadow: -2px 0px 6px rgba(0,0,0,0.95);
+    transition: 1s;
+}
+
+h1, .spn1 {
+background: #C9CF17;
+background: linear-gradient(to bottom, #deb887 0%, #5D5E2E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.hstory {
+    background: #C9CF17;
+    background: linear-gradient(to top, #4c371e 0%, #060605 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.prgr1 {
+    background: #C9CF17;
+background: linear-gradient(to left, #deb887 0%, #53542b 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.list-nav {
+background: #C9CF17;
+background: linear-gradient(to right, #deb887 0%, #5D5E2E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: 1s;
+}
+
+@keyframes swing{
+    0% {transform: rotate(-3deg);}
+    50% {transform: rotate(2deg);}
+    100% {transform: rotate(-3deg);}
+
+}
+@keyframes swing2{
+    0% {transform: rotate(2deg);}
+    50% {transform: rotate(-1deg);}
+    100% {transform: rotate(2deg);}
+
+}
